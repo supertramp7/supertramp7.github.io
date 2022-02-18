@@ -6,23 +6,35 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://supertramp7.github.io">
-  <title>Archives: 2021/4 | Supertramp</title>
+  <title>如何搭建一个自己的博客 | Supertramp</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Fake it till you make it">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Supertramp">
-<meta property="og:url" content="https://supertramp7.github.io/archives/2021/04/index.html">
+  <meta name="description" content="引言为什么要搭建自己的个人博客工作和学习过程中，我们经常遇到一些这样或那样的问题，此时我们可能会在网上找到相应的解决方法。但是过了一段时间之后，当我们再次碰到类似的问题时，早已忘记以前是怎么解决的了，于是又要到网上去搜，浪费大量的时间和精力。面对这些重复的问题，我们为什么不能把它们记录下来呢？">
+<meta property="og:type" content="article">
+<meta property="og:title" content="如何搭建一个自己的博客">
+<meta property="og:url" content="https://supertramp7.github.io/%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/index.html">
 <meta property="og:site_name" content="Supertramp">
-<meta property="og:description" content="Fake it till you make it">
+<meta property="og:description" content="引言为什么要搭建自己的个人博客工作和学习过程中，我们经常遇到一些这样或那样的问题，此时我们可能会在网上找到相应的解决方法。但是过了一段时间之后，当我们再次碰到类似的问题时，早已忘记以前是怎么解决的了，于是又要到网上去搜，浪费大量的时间和精力。面对这些重复的问题，我们为什么不能把它们记录下来呢？">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="c:/Users/11617/AppData/Roaming/Typora/typora-user-images/image-20220217115822149.png">
+<meta property="og:image" content="c:/Users/11617/AppData/Roaming/Typora/typora-user-images/image-20220217120340031.png">
+<meta property="og:image" content="c:/Users/11617/AppData/Roaming/Typora/typora-user-images/image-20220217121628312.png">
+<meta property="og:image" content="c:/Users/11617/AppData/Roaming/Typora/typora-user-images/image-20220217122730494.png">
+<meta property="og:image" content="c:/Users/11617/AppData/Roaming/Typora/typora-user-images/image-20220217124521197.png">
+<meta property="og:image" content="c:/Users/11617/AppData/Roaming/Typora/typora-user-images/image-20220217125458422.png">
+<meta property="og:image" content="c:/Users/11617/AppData/Roaming/Typora/typora-user-images/image-20220217125706757.png">
+<meta property="og:image" content="c:/Users/11617/AppData/Roaming/Typora/typora-user-images/image-20220217131227756.png">
+<meta property="og:image" content="c:/Users/11617/AppData/Roaming/Typora/typora-user-images/image-20220217103529852.png">
+<meta property="article:published_time" content="2022-02-17T05:15:48.602Z">
+<meta property="article:modified_time" content="2022-02-18T08:20:54.916Z">
 <meta property="article:author" content="supertramp">
-<meta property="article:tag" content="java, spring, springboot, mysql">
+<meta property="article:tag" content="hexo, blog, github">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="c:/Users/11617/AppData/Roaming/Typora/typora-user-images/image-20220217115822149.png">
   
     <link rel="alternative" href="/atom.xml" title="Supertramp" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="/assets/favicon.png">
   
   <link rel="stylesheet" type="text/css" href="/./main.0cf68a.css">
   <style type="text/css">
@@ -42,14 +54,14 @@
     <canvas id="anm-canvas" class="anm-canvas"></canvas>
     <div class="left-col" q-class="show:isShow">
       
-<div class="overlay" style="background: #4d4d4d"></div>
+<div class="overlay" style="background: #085839"></div>
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="" class="js-avatar">
+			<img src="/assets/avatar1.jpg" class="js-avatar">
 		</a>
 		<hgroup>
-		  <h1 class="header-author"><a href="/"></a></h1>
+		  <h1 class="header-author"><a href="/">supertramp</a></h1>
 		</hgroup>
 		
 
@@ -58,7 +70,7 @@
 			
 				<li><a href="/">主页</a></li>
 	        
-				<li><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+				<li><a href="/a/index.html">目录</a></li>
 	        
 			</ul>
 		</nav>
@@ -69,24 +81,16 @@
     			
             
     			
-    			<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
-    			
             
     			
-    			<a q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)">关于我</a>
+    			<a q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)">aboutme</a>
     			
             
 		</nav>
 		<nav class="header-nav">
 			<div class="social">
 				
-					<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
-		        
-					<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
-		        
-					<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
-		        
-					<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
+					<a class="github" target="_blank" href="https://github.com/supertramp7/" title="github"><i class="icon-github"></i></a>
 		        
 			</div>
 		</nav>
@@ -97,17 +101,17 @@
     <div class="mid-col" q-class="show:isShow,hide:isShow|isFalse">
       
 <nav id="mobile-nav">
-  	<div class="overlay js-overlay" style="background: #4d4d4d"></div>
+  	<div class="overlay js-overlay" style="background: #085839"></div>
 	<div class="btnctn js-mobile-btnctn">
   		<div class="slider-trigger list" q-on="click: openSlider(e)"><i class="icon icon-sort"></i></div>
 	</div>
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="" class="js-avatar">
+				<img src="/assets/avatar1.jpg" class="js-avatar">
 			</div>
 			<hgroup>
-			  <h1 class="header-author js-header-author"></h1>
+			  <h1 class="header-author js-header-author">supertramp</h1>
 			</hgroup>
 			
 			
@@ -121,13 +125,7 @@
 			<nav class="header-nav">
 				<div class="social">
 					
-						<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
-			        
-						<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
-			        
-						<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
-			        
-						<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
+						<a class="github" target="_blank" href="https://github.com/supertramp7/" title="github"><i class="icon-github"></i></a>
 			        
 				</div>
 			</nav>
@@ -138,7 +136,7 @@
 				
 					<li style="width: 50%"><a href="/">主页</a></li>
 		        
-					<li style="width: 50%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+					<li style="width: 50%"><a href="/a/index.html">目录</a></li>
 		        
 				</ul>
 			</nav>
@@ -153,49 +151,252 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-如何搭建一个自己的博客" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2021" class="archive-year">2021</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/04/25/hello-world/" class="archive-article-date">
-  	<time datetime="2021-04-25T14:05:23.575Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-04-25</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/04/25/hello-world/">Hello World</a>
+    <h1 class="article-title" itemprop="name">
+      如何搭建一个自己的博客
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
+        
+        <a href="/%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/" class="archive-article-date">
+  	<time datetime="2022-02-17T05:15:48.602Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><h2 id="为什么要搭建自己的个人博客"><a href="#为什么要搭建自己的个人博客" class="headerlink" title="为什么要搭建自己的个人博客"></a>为什么要搭建自己的个人博客</h2><p>工作和学习过程中，我们经常遇到一些这样或那样的问题，此时我们可能会在网上找到相应的解决方法。但是过了一段时间之后，当我们再次碰到类似的问题时，早已忘记以前是怎么解决的了，于是又要到网上去搜，浪费大量的时间和精力。面对这些重复的问题，我们为什么不能把它们记录下来呢？</p>
+<span id="more"></span>
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
+<p>在我看来，搭建自己的个人博客主要有以下好处：</p>
+<ul>
+<li>有助于养成归纳总结的习惯，帮助记忆，把别人的知识变成自己的知识。</li>
+<li>通过记录自己工作和生活，锻炼自己的写作的能力。</li>
+<li>培养开放（开源）意识，与大家一起学习交流，共同进步。</li>
+</ul>
+<h2 id="搭建个人博客的多种选择"><a href="#搭建个人博客的多种选择" class="headerlink" title="搭建个人博客的多种选择"></a>搭建个人博客的多种选择</h2><p>目前，主流的博客主要分静态博客和动态博客两类：</p>
+<p>所谓动态，就是指有前端有后端，可以登录到后台进行管理。静态博客是纯前端的展示，没有后端。</p>
+<p><strong>1. 动态博客搭建</strong></p>
+<p>1）直接在简书、CSDN（最近吐槽的比较多）、知乎、博客园等动态博客公共平台上写。</p>
+<ul>
+<li><p>优点：简单</p>
+</li>
+<li><p>缺点：别人家的东西限制多</p>
+</li>
+</ul>
+<p>2）使用WordPress等成熟框架搭建动态博客 + 服务器部署</p>
+<ul>
+<li>优点：相对简单</li>
+<li>缺点：笨重</li>
+</ul>
+<p>3）使用Java、PHP、Python等语言开发属于自己的动态博客 + 服务器部署</p>
+<ul>
+<li>优点：功能强大</li>
+<li>缺点：麻烦、不易上手</li>
+</ul>
+<p><strong>2. 静态博客搭建</strong></p>
+<p>1）使用Hexo、Hugo、jekyll等主流博客框架搭建静态博客 + 托管在GitHub、码云等公共平台。</p>
+<ul>
+<li>优点：轻量级、易上手、不花钱</li>
+<li>缺点：访问速度慢</li>
+</ul>
+<p>2）使用Hexo、Hugo、jekyll等主流博客框架搭建静态博客 + 云端服务器部署。</p>
+<ul>
+<li>优点：有独立的域名、访问速度快、自主可控</li>
+<li>缺点：要花钱买域名和云服务器</li>
+</ul>
+<p>(我用的就是“Hexo+GitHub”这种方法，接下来详细地给大家介绍一下采用该方法搭建个人博客的原理和步骤。)</p>
+<hr>
+<h2 id="什么是Hexo"><a href="#什么是Hexo" class="headerlink" title="什么是Hexo"></a>什么是Hexo</h2><p>Hexo可以理解为是基于node.js制作的一个博客工具。它是一个静态页面生成和上传的工具。</p>
+<h2 id="为什么选择Hexo"><a href="#为什么选择Hexo" class="headerlink" title="为什么选择Hexo"></a>为什么选择Hexo</h2><p>Hexo在本地安装，不需要部署到我们的服务器上。我们只需要在本地通过markdown编写文章，然后让Hexo帮我们生成静态的html页面，并通过Hexo将生成的html文件上传到我们的服务器。</p>
+<h2 id="为什么选择托管在GitHub上"><a href="#为什么选择托管在GitHub上" class="headerlink" title="为什么选择托管在GitHub上"></a>为什么选择托管在GitHub上</h2><p>托管在github上方便、不花钱</p>
+<h1 id="一、工作原理"><a href="#一、工作原理" class="headerlink" title="一、工作原理"></a>一、工作原理</h1><h2 id="使用Hexo搭建个人博客并托管在GitHub的原理："><a href="#使用Hexo搭建个人博客并托管在GitHub的原理：" class="headerlink" title="使用Hexo搭建个人博客并托管在GitHub的原理："></a>使用Hexo搭建个人博客并托管在GitHub的原理：</h2><p>简单来说就是在本地计算机搭建Hexo环境，Hexo通过generate命令将*.md文件渲染成静态的html页面，然后Hexo通过deploy命令触发git用户通过公钥免密登陆服务器，进而将静态页面推送到服务器的git仓库（repository）中。</p>
+<h1 id="二、搭建步骤"><a href="#二、搭建步骤" class="headerlink" title="二、搭建步骤"></a>二、搭建步骤</h1><h2 id="在本地计算机安装Hexo环境"><a href="#在本地计算机安装Hexo环境" class="headerlink" title="在本地计算机安装Hexo环境"></a>在本地计算机安装Hexo环境</h2><h3 id="1-安装Node-js"><a href="#1-安装Node-js" class="headerlink" title="1. 安装Node.js"></a>1. 安装Node.js</h3><p>去Node.js官网[2]下载Windows (x64)长期支持版 Long Term Support (LTS) schedule。按提示逐步安装即可，安装完成后打开cmd查看版本号验证是否安装成功。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">C:\Users\11617&gt;node -v</span><br><span class="line">v12.14.1</span><br></pre></td></tr></table></figure>
+
+<p>Node.js中自带了npm包管理工具，在cmd中查看npm版本。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">C:\Users\11617&gt;npm -v</span><br><span class="line">6.13.4</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="2-安装Git"><a href="#2-安装Git" class="headerlink" title="2. 安装Git"></a>2. 安装Git</h3><p>git是一个版本控制工具，国外镜像下载巨慢，建议前往<a target="_blank" rel="noopener" href="https://npm.taobao.org/mirrors/git-for-windows/">淘宝 Git for Windows 镜像</a>下载 git 安装包。按提示逐步安装即可，安装完成后右键菜单中出现Git Bash和Git GUI菜单表明安装成功，如下图所示。</p>
+<p><img src="C:\Users\11617\AppData\Roaming\Typora\typora-user-images\image-20220217115822149.png" alt="image-20220217115822149"></p>
+<p>注：git和github是两个东西。github是基于git二次开发的，git是github的核心，git负责与github相关的所有本地工作。</p>
+<h3 id="3-安装Hexo"><a href="#3-安装Hexo" class="headerlink" title="3. 安装Hexo"></a>3. 安装Hexo</h3><p>在F盘新建blog文件夹用来存放个人博客，进入该文件夹，右键打开Git Bash，使用 npm 安装 Hexo。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<p>Hexo安装完成后，在blog文件夹下新建myblog项目，并对其进行初始化。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init myblog</span><br><span class="line">$ <span class="built_in">cd</span> myblog</span><br></pre></td></tr></table></figure>
+
+<p>此时，会在blog文件夹下新建myblog文件夹，并在其内部生成相应的项目文件。如下图所示：</p>
+<p><img src="C:\Users\11617\AppData\Roaming\Typora\typora-user-images\image-20220217120340031.png" alt="image-20220217120340031"></p>
+<p>在myblog文件夹下启动hexo服务。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
+
+<p>此时在本地打开浏览器，通过 <a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a> 便可访问基于Hexo的个人博客主页了。如下图所示：</p>
+<p><img src="C:\Users\11617\AppData\Roaming\Typora\typora-user-images\image-20220217121628312.png" alt="image-20220217121628312"></p>
+<h3 id="4-我的第一篇文章"><a href="#4-我的第一篇文章" class="headerlink" title="4. 我的第一篇文章"></a>4. 我的第一篇文章</h3><p>在myblog文件夹下，右键打开Git Bash，新建第一篇文章。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo n <span class="string">&quot;我的第一篇博客文章&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>运行结果如下：</p>
+<p><img src="C:\Users\11617\AppData\Roaming\Typora\typora-user-images\image-20220217122730494.png" alt="image-20220217122730494"></p>
+<p>进入到myblog/source/_posts/文件夹下。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ cd source&#x2F;_posts</span><br><span class="line">$ ls</span><br><span class="line">hello-world.md  我的第一篇博客文章.md</span><br></pre></td></tr></table></figure>
+
+<p>打开“我的第一篇博客文章.md”并编辑保存。</p>
+<p>重新退回到myblog文件夹下，清除缓存文件 db.json 和已生成的静态文件 public ，生成网站静态文件到默认设置的 public 文件夹，并重新启动hexo。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> ../..</span><br><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="三、部署GitHub"><a href="#三、部署GitHub" class="headerlink" title="三、部署GitHub"></a>三、部署GitHub</h1><h2 id="将博客部署到GitHub上"><a href="#将博客部署到GitHub上" class="headerlink" title="将博客部署到GitHub上"></a>将博客部署到GitHub上</h2><h3 id="1-登录GitHub"><a href="#1-登录GitHub" class="headerlink" title="1. 登录GitHub"></a>1. 登录GitHub</h3><h3 id="2-新建仓库-—-gt-new-repository"><a href="#2-新建仓库-—-gt-new-repository" class="headerlink" title="2. 新建仓库 —&gt; new repository"></a>2. 新建仓库 —&gt; new repository</h3><p><img src="C:\Users\11617\AppData\Roaming\Typora\typora-user-images\image-20220217124521197.png" alt="image-20220217124521197"></p>
+<p>点击Create repository，进入下一步。</p>
+<p><img src="C:\Users\11617\AppData\Roaming\Typora\typora-user-images\image-20220217125458422.png" alt="image-20220217125458422"></p>
+<h3 id="3-安装git插件"><a href="#3-安装git插件" class="headerlink" title="3. 安装git插件"></a>3. 安装git插件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cnpm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="4-配置-config-yml文件"><a href="#4-配置-config-yml文件" class="headerlink" title="4. 配置_config.yml文件"></a>4. 配置_config.yml文件</h3><p>在myblog文件夹下打开_config.yml文件并编辑保存。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vim _config.yml</span><br></pre></td></tr></table></figure>
+
+<p>编辑如下：</p>
+<p><img src="C:\Users\11617\AppData\Roaming\Typora\typora-user-images\image-20220217125706757.png" alt="image-20220217125706757"></p>
+<p>保存退出后重新部署：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+
+<p>输入github账号、密码后刷新GitHub就可以看到博客。</p>
+<h3 id="5-访问博客"><a href="#5-访问博客" class="headerlink" title="5. 访问博客"></a>5. 访问博客</h3><p><a href="https://supertramp7.github.io/">我的博客</a></p>
+<h1 id="四、更换主题"><a href="#四、更换主题" class="headerlink" title="四、更换主题"></a>四、更换主题</h1><p><a target="_blank" rel="noopener" href="https://github.com/litten/hexo-theme-yilia">yilila主题</a></p>
+<h2 id="使用主题"><a href="#使用主题" class="headerlink" title="使用主题"></a>使用主题</h2><h3 id="1-下载主题"><a href="#1-下载主题" class="headerlink" title="1. 下载主题"></a>1. 下载主题</h3><p>在myblog文件夹下，右键打开Git Bash，下载主题到themes下的yilia文件夹下。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/litten/hexo-theme-yilia.git themes yilia</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="2-配置主题"><a href="#2-配置主题" class="headerlink" title="2. 配置主题"></a>2. 配置主题</h3><p>打开_config.yml修改主题并保存。</p>
+<img src="C:\Users\11617\AppData\Roaming\Typora\typora-user-images\image-20220217131227756.png" alt="image-20220217131227756" style="zoom:67%;" />
+
+<h3 id="3-成功使用"><a href="#3-成功使用" class="headerlink" title="3. 成功使用"></a>3. 成功使用</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo s</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="4-优化"><a href="#4-优化" class="headerlink" title="4. 优化"></a>4. 优化</h3><p><a target="_blank" rel="noopener" href="https://cloudy-liu.github.io/2018/04/07/Hexo_yilia_%E4%B8%BB%E9%A2%98%E4%B8%80%E6%8F%BD%E5%AD%90%E4%BC%98%E5%8C%96%E6%96%B9%E6%A1%88/">Hexo yilia主题一揽子优化方案</a></p>
+<hr>
+<h1 id="ERROR1"><a href="#ERROR1" class="headerlink" title="ERROR1"></a>ERROR1</h1><p>执行命令：<code>git clone https://github.com/litten/hexo-theme-yilia.git themes/yilia</code></p>
+<p>出现错误：<code>fatal: unable to access &#39;https://github.com/litten/hexo-theme-yilia.git/&#39;: OpenSSL SSL_read: Connection was reset, errno 10054</code></p>
+<p>原因：因为git在拉取或者提交项目时，中间会有git的http和https代理，但是我们本地环境本身就有SSL协议了，所以取消git的https代理即可，不行再取消http的代理。</p>
+<p>解决方案：取消git本身的https代理，使用自己本机的代理，如果没有的话，其实默认还是用git的。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">// 取消http代理</span><br><span class="line">git config --global --<span class="built_in">unset</span> http.proxy</span><br><span class="line"></span><br><span class="line">// 取消https代理</span><br><span class="line">git config --global --<span class="built_in">unset</span> https.proxy</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h1 id="ERROR2"><a href="#ERROR2" class="headerlink" title="ERROR2"></a>ERROR2</h1><p>执行代码：<code>hexo d</code></p>
+<p>出现错误：<code>Logon failed, use ctrl+c to cancel basic credential prompt.</code><br><code>remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.</code></p>
+<p>原因：自从21年8月13后不再支持用户名密码的方式验证了，需要创建个人访问令牌(personal access token)。</p>
+<p>解决方案：</p>
+<p>1.生成令牌</p>
+<p>1）登录GitHub官网，点击Settings</p>
+<p>2）点击左侧Developer settings</p>
+<p>3）点击左侧Personal access tokens</p>
+<p>4）点击Generate new token</p>
+<p>5）填写token信息</p>
+<p><img src="C:\Users\11617\AppData\Roaming\Typora\typora-user-images\image-20220217103529852.png" alt="image-20220217103529852"></p>
+<p>6）点击Generate token，生成令牌</p>
+<p>2.应用令牌</p>
+<p>首次推送提示 输入的的2次用户名密码，第一次是输入<a target="_blank" rel="noopener" href="https://so.csdn.net/so/search?q=github&spm=1001.2101.3001.7020">github</a>的登陆用户名和密码；<br>第二次是输入上面截图操作步骤最终填写的Note（用户名） 和生成的tokens（密码）</p>
+<h1 id="ERROR3"><a href="#ERROR3" class="headerlink" title="ERROR3"></a>ERROR3</h1><p>出现错误：hexo博客在yilia主题下不显示作者名字<br>解决方案：yilia需要在主题下的_config.yml加入author: ,不在menu:下</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">hexo, blog, github</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+    <a href="/test/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          test
+        
+      </div>
+    </a>
   
   
-    </div></section>
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%BC%95%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">引言</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2"><span class="toc-number">1.1.</span> <span class="toc-text">为什么要搭建自己的个人博客</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%A4%9A%E7%A7%8D%E9%80%89%E6%8B%A9"><span class="toc-number">1.2.</span> <span class="toc-text">搭建个人博客的多种选择</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AFHexo"><span class="toc-number">1.3.</span> <span class="toc-text">什么是Hexo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9Hexo"><span class="toc-number">1.4.</span> <span class="toc-text">为什么选择Hexo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9%E6%89%98%E7%AE%A1%E5%9C%A8GitHub%E4%B8%8A"><span class="toc-number">1.5.</span> <span class="toc-text">为什么选择托管在GitHub上</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86"><span class="toc-number">2.</span> <span class="toc-text">一、工作原理</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E6%89%98%E7%AE%A1%E5%9C%A8GitHub%E7%9A%84%E5%8E%9F%E7%90%86%EF%BC%9A"><span class="toc-number">2.1.</span> <span class="toc-text">使用Hexo搭建个人博客并托管在GitHub的原理：</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E6%90%AD%E5%BB%BA%E6%AD%A5%E9%AA%A4"><span class="toc-number">3.</span> <span class="toc-text">二、搭建步骤</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9C%A8%E6%9C%AC%E5%9C%B0%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AE%89%E8%A3%85Hexo%E7%8E%AF%E5%A2%83"><span class="toc-number">3.1.</span> <span class="toc-text">在本地计算机安装Hexo环境</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E5%AE%89%E8%A3%85Node-js"><span class="toc-number">3.1.1.</span> <span class="toc-text">1. 安装Node.js</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E5%AE%89%E8%A3%85Git"><span class="toc-number">3.1.2.</span> <span class="toc-text">2. 安装Git</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E5%AE%89%E8%A3%85Hexo"><span class="toc-number">3.1.3.</span> <span class="toc-text">3. 安装Hexo</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0"><span class="toc-number">3.1.4.</span> <span class="toc-text">4. 我的第一篇文章</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E9%83%A8%E7%BD%B2GitHub"><span class="toc-number">4.</span> <span class="toc-text">三、部署GitHub</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B0%86%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0GitHub%E4%B8%8A"><span class="toc-number">4.1.</span> <span class="toc-text">将博客部署到GitHub上</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E7%99%BB%E5%BD%95GitHub"><span class="toc-number">4.1.1.</span> <span class="toc-text">1. 登录GitHub</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E6%96%B0%E5%BB%BA%E4%BB%93%E5%BA%93-%E2%80%94-gt-new-repository"><span class="toc-number">4.1.2.</span> <span class="toc-text">2. 新建仓库 —&gt; new repository</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E5%AE%89%E8%A3%85git%E6%8F%92%E4%BB%B6"><span class="toc-number">4.1.3.</span> <span class="toc-text">3. 安装git插件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E9%85%8D%E7%BD%AE-config-yml%E6%96%87%E4%BB%B6"><span class="toc-number">4.1.4.</span> <span class="toc-text">4. 配置_config.yml文件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-%E8%AE%BF%E9%97%AE%E5%8D%9A%E5%AE%A2"><span class="toc-number">4.1.5.</span> <span class="toc-text">5. 访问博客</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98"><span class="toc-number">5.</span> <span class="toc-text">四、更换主题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8%E4%B8%BB%E9%A2%98"><span class="toc-number">5.1.</span> <span class="toc-text">使用主题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E4%B8%8B%E8%BD%BD%E4%B8%BB%E9%A2%98"><span class="toc-number">5.1.1.</span> <span class="toc-text">1. 下载主题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E9%85%8D%E7%BD%AE%E4%B8%BB%E9%A2%98"><span class="toc-number">5.1.2.</span> <span class="toc-text">2. 配置主题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E6%88%90%E5%8A%9F%E4%BD%BF%E7%94%A8"><span class="toc-number">5.1.3.</span> <span class="toc-text">3. 成功使用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E4%BC%98%E5%8C%96"><span class="toc-number">5.1.4.</span> <span class="toc-text">4. 优化</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#ERROR1"><span class="toc-number">6.</span> <span class="toc-text">ERROR1</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#ERROR2"><span class="toc-number">7.</span> <span class="toc-text">ERROR2</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#ERROR3"><span class="toc-number">8.</span> <span class="toc-text">ERROR3</span></a></li></ol>
+                    </div>
+                </span>
+            </div>
+        </div>
+        
+    </div>
+</aside>
+
+
+
+  
+  
   
 
-    
+  
+
+  
+
+  
 
 
           </div>
@@ -218,15 +419,15 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
-		open_in_new: false,
+		open_in_new: true,
 		toc_hide_index: true,
 		root: "/",
 		innerArchive: true,
-		showTags: false
+		showTags: true
 	}
 </script>
 
@@ -246,8 +447,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
       
     
       
-      
-      
     
       
       
@@ -259,15 +458,13 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
     
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
       
         
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>
-      
         
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">aboutme</a></li>
       
         
     </ul>
@@ -286,6 +483,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">hexo, blog, github</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
@@ -331,43 +532,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
 
     
-    	<section class="tools-section tools-section-friends" q-show="friends">
-  		
-        <ul class="search-ul">
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接1</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接2</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接3</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接4</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接5</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接6</a>
-            </li>
-          
-        </ul>
-  		
-    	</section>
-    
 
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">boring</div>
   	  	
     	</section>
     
