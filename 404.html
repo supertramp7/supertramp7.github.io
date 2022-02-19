@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="css/main.css">
 
 
+
 <body>
 
 
@@ -18,9 +19,9 @@
 		<div>
 
 		</div>
-		<canvas>
 
-		</canvas>
+		<canvas class="can"></canvas>
+		<h1 class="show">You shouldn't be here. Go to <a href="https://supertramp7.github.io/">supertramp</a></h1>
 
 
 
@@ -28,7 +29,16 @@
 
 
 	<script src="js/404.js"></script>
+	<script>
+		var dwidth = window.screen.width;
+		var dheight = window.screen.height;
 
+		// alert(dwidth)
+		var can = document.getElementsByClassName('can')[0];
+		can.style.width = dwidth + 'px';
+		can.style.height = dheight + 'px';
+		// console.log(can)
+	</script>
 </body>
 
 </html>
