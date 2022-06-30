@@ -1503,6 +1503,9 @@ img:not([src]) {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
 }
+.clock-row {
+  color: #ececec !important;
+}
 .img-alt {
   margin: -10px 0 10px;
   color: #858585;
